@@ -1,0 +1,1072 @@
+[
+    {
+        "id": 1,
+        "title": "Moving Out",
+        "releaseDate": "Oct 31",
+        "availableUntil": "11:00 AM",
+        "price": "Free",
+        "image": "https://cdn1.epicgames.com/offer/f919a1262081444fb28f0fdef68d6b14/EGS_MovingOut_SMGStudioDevmGames_S1_2560x1440-86272cbdeb4cc4b39f0760ab720ac585?resize=1&w=854&h=480&quality=medium",
+        "link": "https://store.epicgames.com/en-US/p/moving-out",
+        "platform": "Epic"
+    },
+    {
+        "id": 2,
+        "title": "Witch It",
+        "releaseDate": "Oct 31",
+        "availableUntil": "Nov 07",
+        "price": "Free",
+        "image": "https://cdn1.epicgames.com/spt-assets/03887d7e03fd460eb1c3074d1de865dd/witch-it-ia44y.jpg?resize=1&w=854&h=480&quality=medium",
+        "link": "https://store.epicgames.com/en-US/p/witch-it-3624a9",
+        "platform": "Epic"
+    },
+    {
+        "id": 3,
+        "title": "Ghostwire: Tokyo",
+        "releaseDate": "Oct 31",
+        "availableUntil": "Nov 07",
+        "price": "Free",
+        "image": "https://cdn1.epicgames.com/offer/a93cd6111251461c953776a0c4ea4d80/EGS_GhostwireTokyoWide_2560x1440-4bc1a83c819408d33e29e61f1a9d66e4?resize=1&w=854&h=480&quality=medium",
+        "link": "https://store.epicgames.com/en-US/p/ghostwire-tokyo",
+        "platform": "Epic"
+    },
+    {
+        "id": 4,
+        "title": "Monster Train",
+        "releaseDate": "",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://m.media-amazon.com/images/I/71oPG0eNUIL._FMwebp_.jpg",
+        "link": "https://gaming.amazon.com/monster-train-gog/dp/amzn1.pg.item.935352db-da17-4dc0-891c-5f7fcdfbf691?ingress=amzn&ref_=SM_MonsterTrain_S01_FGWP_CRWN",
+        "platform": "Prime"
+    },
+    {
+        "id": 5,
+        "title": "Pumpkin Jack",
+        "releaseDate": "",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://m.media-amazon.com/images/I/61PPb8qpBdL._FMwebp_.jpg",
+        "link": "https://gaming.amazon.com/pumpkin-jack-gog/dp/amzn1.pg.item.a04f8021-81e2-456c-aa16-c0ceb7d8be0d?ingress=amzn&ref_=SM_PumpkinJack_S01_FGWP_CRWN",
+        "platform": "Prime"
+    },
+    {
+        "id": 6,
+        "title": "STASIS: BONE TOTEM",
+        "releaseDate": "",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://m.media-amazon.com/images/I/61ZiPH+9UOL._FMwebp_.jpg",
+        "link": "https://gaming.amazon.com/stasis-bone-totem-epic/dp/amzn1.pg.item.96e6beeb-913f-4eba-8471-e8188e94b744?ingress=amzn&ref_=SM_STASISBONETOTEM_S01_FGWP_CRWN",
+        "platform": "Prime"
+    },
+    {
+        "id": 7,
+        "title": "Morbid: The Seven Acolytes",
+        "releaseDate": "",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://m.media-amazon.com/images/I/61Sc5w3zp1L._FMwebp_.jpg",
+        "link": "https://gaming.amazon.com/morbid-the-seven-acolytes-epic/dp/amzn1.pg.item.d3295a8d-1dd7-4f0c-a02a-4c0e9932929b?ingress=amzn&ref_=SM_MorbidTheSevenAcolytes_S01_FGWP_CRWN",
+        "platform": "Prime"
+    },
+    {
+        "id": 8,
+        "title": "Gargoyles Remastered",
+        "releaseDate": "",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://m.media-amazon.com/images/I/61z7mJxL1pL._FMwebp_.jpg",
+        "link": "https://gaming.amazon.com/gargoyles-remastered-aga/dp/amzn1.pg.item.551a3513-05a9-4466-9034-d112c0e27c52?ingress=amzn&ref_=SM_GargoylesRemastered_S01_FGWP_CRWN",
+        "platform": "Prime"
+    },
+    {
+        "id": 9,
+        "title": "Alien: Isolation",
+        "releaseDate": "",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://m.media-amazon.com/images/I/51WtVmhcgUL._FMwebp_.jpg",
+        "link": "https://luna.amazon.com/game/alien-isolation/B09HFKWMTQ?g=web&ref=tmp_pghq",
+        "platform": "Prime"
+    },
+    {
+        "id": 10,
+        "title": "Mortal Shell",
+        "releaseDate": "",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://m.media-amazon.com/images/I/6115fevs1hL._FMwebp_.jpg",
+        "link": "https://luna.amazon.com/game/mortal-shell/B09M7MSSTY?g=web&ref=tmp_pghq",
+        "platform": "Prime"
+    },
+    {
+        "id": 11,
+        "title": "DOOM Eternal",
+        "releaseDate": "",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://m.media-amazon.com/images/I/71dBSw0a0OL._FMwebp_.jpg",
+        "link": "https://gaming.amazon.com/doom-eternal-microsoft/dp/amzn1.pg.item.1c490f2e-c698-4077-94a6-6a69c98945e2?ingress=amzn&ref_=SM_DOOMEternal_S01_FGWP_CRWN",
+        "platform": "Prime"
+    },
+    {
+        "id": 12,
+        "title": "BioShock Remastered",
+        "releaseDate": "",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://m.media-amazon.com/images/I/71SG3VLr8OL._FMwebp_.jpg",
+        "link": "https://gaming.amazon.com/bioshock-remastered-gog/dp/amzn1.pg.item.47e3beb4-fa93-4141-8bbb-dd75cfbe25c8?ingress=amzn&ref_=SM_BioShockRemastered_S01_FGWP_CRWN",
+        "platform": "Prime"
+    },
+    {
+        "id": 13,
+        "title": "Killing Floor 2",
+        "releaseDate": "",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://m.media-amazon.com/images/I/61mqUqAUJJL._FMwebp_.jpg",
+        "link": "https://gaming.amazon.com/killing-floor-2-epic/dp/amzn1.pg.item.ceccd1c8-4bcf-4164-98b8-41b6e92e10ee?ingress=amzn&ref_=SM_KillingFloor2_S01_FGWP_CRWN",
+        "platform": "Prime"
+    },
+    {
+        "id": 14,
+        "title": "Ghostbusters: Spirits Unleashed Ecto Edition",
+        "releaseDate": "",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://m.media-amazon.com/images/I/71744wxDzkL._FMwebp_.jpg",
+        "link": "https://gaming.amazon.com/ghostbusters-spirits-unleashed-ecto-edition-epic/dp/amzn1.pg.item.97d3bd84-65d7-4139-b981-35a2eb27aee5?ingress=amzn&ref_=SM_GhostbustersSpiritsUnleashedEctoEdition_S01_FGWP_CRWN",
+        "platform": "Prime"
+    },
+    {
+        "id": 15,
+        "title": "The Gap",
+        "releaseDate": "",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://m.media-amazon.com/images/I/61CrfixaR2L._FMwebp_.jpg",
+        "link": "https://gaming.amazon.com/the-gap-aga/dp/amzn1.pg.item.4e43dec0-5cc0-43b4-a970-c110605935f6?ingress=amzn&ref_=SM_TheGap_S01_FGWP_CRWN",
+        "platform": "Prime"
+    },
+    {
+        "id": 16,
+        "title": "DreadOut 2",
+        "releaseDate": "",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://m.media-amazon.com/images/I/61sjn0DVrSL._FMwebp_.jpg",
+        "link": "https://gaming.amazon.com/dreadout-2-aga/dp/amzn1.pg.item.c90fbab6-a7f2-4e80-8233-632431cf565d?ingress=amzn&ref_=SM_DreadOut2_S01_FGWP_CRWN",
+        "platform": "Prime"
+    },
+    {
+        "id": 17,
+        "title": "Priest Simulator: Vampire Show",
+        "releaseDate": "",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://m.media-amazon.com/images/I/61ZJ0-YoSNL._FMwebp_.jpg",
+        "link": "https://gaming.amazon.com/priest-simulator-vampire-show-epic/dp/amzn1.pg.item.a9e49c29-b2fc-45f5-b40e-91f68011bc9d?ingress=amzn&ref_=SM_PriestSimulatorVampireShow_S01_FGWP_CRWN",
+        "platform": "Prime"
+    },
+    {
+        "id": 18,
+        "title": "Zombies Ate My Neighbors and Ghoul Patrol",
+        "releaseDate": "",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://m.media-amazon.com/images/I/61srVGNVsnL._FMwebp_.jpg",
+        "link": "https://gaming.amazon.com/zombies-ate-my-neighbors-and-ghoul-patrol-aga/dp/amzn1.pg.item.63f858f9-8e3c-4aac-8dbb-b84960a2dd29?ingress=amzn&ref_=SM_ZombiesAteMyNeighborsandGhoulPatrol_S01_FGWP_CRWN",
+        "platform": "Prime"
+    },
+    {
+        "id": 19,
+        "title": "Vlad Circus: Descend Into Madness",
+        "releaseDate": "",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://m.media-amazon.com/images/I/61cgQwjVOML._FMwebp_.jpg",
+        "link": "https://gaming.amazon.com/vlad-circus-descend-into-madness-aga/dp/amzn1.pg.item.6c44be07-a73a-4e0c-8003-f8e7f78684ff?ingress=amzn&ref_=SM_VladCircusDescendIntoMadness_S02_FGWP_CRWN",
+        "platform": "Prime"
+    },
+    {
+        "id": 20,
+        "title": "Through the Darkest of Times",
+        "releaseDate": "",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://m.media-amazon.com/images/I/61TMmFiX7RL._FMwebp_.jpg",
+        "link": "https://gaming.amazon.com/through-the-darkest-of-times-aga/dp/amzn1.pg.item.f7492ab7-439e-4e1c-8439-86323c6fc9db?ingress=amzn&ref_=SM_ThroughtheDarkestofTimes_S02_FGWP_CRWN",
+        "platform": "Prime"
+    },
+    {
+        "id": 21,
+        "title": "Monster Train",
+        "releaseDate": "",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://m.media-amazon.com/images/I/71oPG0eNUIL._FMwebp_.jpg",
+        "link": "https://gaming.amazon.com/monster-train-gog/dp/amzn1.pg.item.935352db-da17-4dc0-891c-5f7fcdfbf691?ingress=amzn&ref_=SM_MonsterTrain_S01_FGWP_CRWN",
+        "platform": "Prime"
+    },
+    {
+        "id": 22,
+        "title": "Pumpkin Jack",
+        "releaseDate": "",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://m.media-amazon.com/images/I/61PPb8qpBdL._FMwebp_.jpg",
+        "link": "https://gaming.amazon.com/pumpkin-jack-gog/dp/amzn1.pg.item.a04f8021-81e2-456c-aa16-c0ceb7d8be0d?ingress=amzn&ref_=SM_PumpkinJack_S01_FGWP_CRWN",
+        "platform": "Prime"
+    },
+    {
+        "id": 23,
+        "title": "STASIS: BONE TOTEM",
+        "releaseDate": "",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://m.media-amazon.com/images/I/61ZiPH+9UOL._FMwebp_.jpg",
+        "link": "https://gaming.amazon.com/stasis-bone-totem-epic/dp/amzn1.pg.item.96e6beeb-913f-4eba-8471-e8188e94b744?ingress=amzn&ref_=SM_STASISBONETOTEM_S01_FGWP_CRWN",
+        "platform": "Prime"
+    },
+    {
+        "id": 24,
+        "title": "The Gunk",
+        "releaseDate": "",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://m.media-amazon.com/images/I/71psfm6iLyL._FMwebp_.jpg",
+        "link": "https://gaming.amazon.com/the-gunk-gog/dp/amzn1.pg.item.eb579093-f15f-40f1-ae81-259e4104ac1e?ingress=amzn&ref_=SM_TheGunk_S01_FGWP_CRWN",
+        "platform": "Prime"
+    },
+    {
+        "id": 25,
+        "title": "Morbid: The Seven Acolytes",
+        "releaseDate": "",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://m.media-amazon.com/images/I/61Sc5w3zp1L._FMwebp_.jpg",
+        "link": "https://gaming.amazon.com/morbid-the-seven-acolytes-epic/dp/amzn1.pg.item.d3295a8d-1dd7-4f0c-a02a-4c0e9932929b?ingress=amzn&ref_=SM_MorbidTheSevenAcolytes_S01_FGWP_CRWN",
+        "platform": "Prime"
+    },
+    {
+        "id": 26,
+        "title": "Gargoyles Remastered",
+        "releaseDate": "",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://m.media-amazon.com/images/I/61z7mJxL1pL._FMwebp_.jpg",
+        "link": "https://gaming.amazon.com/gargoyles-remastered-aga/dp/amzn1.pg.item.551a3513-05a9-4466-9034-d112c0e27c52?ingress=amzn&ref_=SM_GargoylesRemastered_S01_FGWP_CRWN",
+        "platform": "Prime"
+    },
+    {
+        "id": 27,
+        "title": "DOOM Eternal",
+        "releaseDate": "",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://m.media-amazon.com/images/I/71dBSw0a0OL._FMwebp_.jpg",
+        "link": "https://gaming.amazon.com/doom-eternal-microsoft/dp/amzn1.pg.item.1c490f2e-c698-4077-94a6-6a69c98945e2?ingress=amzn&ref_=SM_DOOMEternal_S01_FGWP_CRWN",
+        "platform": "Prime"
+    },
+    {
+        "id": 28,
+        "title": "BioShock Remastered",
+        "releaseDate": "",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://m.media-amazon.com/images/I/71SG3VLr8OL._FMwebp_.jpg",
+        "link": "https://gaming.amazon.com/bioshock-remastered-gog/dp/amzn1.pg.item.47e3beb4-fa93-4141-8bbb-dd75cfbe25c8?ingress=amzn&ref_=SM_BioShockRemastered_S01_FGWP_CRWN",
+        "platform": "Prime"
+    },
+    {
+        "id": 29,
+        "title": "Killing Floor 2",
+        "releaseDate": "",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://m.media-amazon.com/images/I/61mqUqAUJJL._FMwebp_.jpg",
+        "link": "https://gaming.amazon.com/killing-floor-2-epic/dp/amzn1.pg.item.ceccd1c8-4bcf-4164-98b8-41b6e92e10ee?ingress=amzn&ref_=SM_KillingFloor2_S01_FGWP_CRWN",
+        "platform": "Prime"
+    },
+    {
+        "id": 30,
+        "title": "Ghostbusters: Spirits Unleashed Ecto Edition",
+        "releaseDate": "",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://m.media-amazon.com/images/I/71744wxDzkL._FMwebp_.jpg",
+        "link": "https://gaming.amazon.com/ghostbusters-spirits-unleashed-ecto-edition-epic/dp/amzn1.pg.item.97d3bd84-65d7-4139-b981-35a2eb27aee5?ingress=amzn&ref_=SM_GhostbustersSpiritsUnleashedEctoEdition_S01_FGWP_CRWN",
+        "platform": "Prime"
+    },
+    {
+        "id": 31,
+        "title": "The Gap",
+        "releaseDate": "",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://m.media-amazon.com/images/I/61CrfixaR2L._FMwebp_.jpg",
+        "link": "https://gaming.amazon.com/the-gap-aga/dp/amzn1.pg.item.4e43dec0-5cc0-43b4-a970-c110605935f6?ingress=amzn&ref_=SM_TheGap_S01_FGWP_CRWN",
+        "platform": "Prime"
+    },
+    {
+        "id": 32,
+        "title": "DreadOut 2",
+        "releaseDate": "",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://m.media-amazon.com/images/I/61sjn0DVrSL._FMwebp_.jpg",
+        "link": "https://gaming.amazon.com/dreadout-2-aga/dp/amzn1.pg.item.c90fbab6-a7f2-4e80-8233-632431cf565d?ingress=amzn&ref_=SM_DreadOut2_S01_FGWP_CRWN",
+        "platform": "Prime"
+    },
+    {
+        "id": 33,
+        "title": "Priest Simulator: Vampire Show",
+        "releaseDate": "",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://m.media-amazon.com/images/I/61ZJ0-YoSNL._FMwebp_.jpg",
+        "link": "https://gaming.amazon.com/priest-simulator-vampire-show-epic/dp/amzn1.pg.item.a9e49c29-b2fc-45f5-b40e-91f68011bc9d?ingress=amzn&ref_=SM_PriestSimulatorVampireShow_S01_FGWP_CRWN",
+        "platform": "Prime"
+    },
+    {
+        "id": 34,
+        "title": "Zombies Ate My Neighbors and Ghoul Patrol",
+        "releaseDate": "",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://m.media-amazon.com/images/I/61srVGNVsnL._FMwebp_.jpg",
+        "link": "https://gaming.amazon.com/zombies-ate-my-neighbors-and-ghoul-patrol-aga/dp/amzn1.pg.item.63f858f9-8e3c-4aac-8dbb-b84960a2dd29?ingress=amzn&ref_=SM_ZombiesAteMyNeighborsandGhoulPatrol_S01_FGWP_CRWN",
+        "platform": "Prime"
+    },
+    {
+        "id": 35,
+        "title": "Vlad Circus: Descend Into Madness",
+        "releaseDate": "",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://m.media-amazon.com/images/I/61cgQwjVOML._FMwebp_.jpg",
+        "link": "https://gaming.amazon.com/vlad-circus-descend-into-madness-aga/dp/amzn1.pg.item.6c44be07-a73a-4e0c-8003-f8e7f78684ff?ingress=amzn&ref_=SM_VladCircusDescendIntoMadness_S02_FGWP_CRWN",
+        "platform": "Prime"
+    },
+    {
+        "id": 36,
+        "title": "2048",
+        "releaseDate": "",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://m.media-amazon.com/images/I/518bwdqMKcL._FMwebp_.jpg",
+        "link": "https://gaming.amazon.com/web-games/2048?ingress=amzn",
+        "platform": "Prime"
+    },
+    {
+        "id": 37,
+        "title": "Topsoil",
+        "releaseDate": "",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://m.media-amazon.com/images/I/61+6Lj5KSTL._FMwebp_.jpg",
+        "link": "https://gaming.amazon.com/web-games/topsoil?ingress=amzn",
+        "platform": "Prime"
+    },
+    {
+        "id": 38,
+        "title": "Putt Putt Problems",
+        "releaseDate": "",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://m.media-amazon.com/images/I/51gj943qXqL._FMwebp_.jpg",
+        "link": "https://gaming.amazon.com/web-games/lilsnackputtputt?ingress=amzn",
+        "platform": "Prime"
+    },
+    {
+        "id": 39,
+        "title": "ThruLine",
+        "releaseDate": "",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://m.media-amazon.com/images/I/51MnL7dtiGL._FMwebp_.jpg",
+        "link": "https://gaming.amazon.com/web-games/thruline?ingress=amzn",
+        "platform": "Prime"
+    },
+    {
+        "id": 40,
+        "title": "What The?",
+        "releaseDate": "",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://m.media-amazon.com/images/I/51mVq2aLzdL._FMwebp_.jpg",
+        "link": "https://gaming.amazon.com/web-games/lilsnackwhatthe?ingress=amzn",
+        "platform": "Prime"
+    },
+    {
+        "id": 41,
+        "title": "Alien: Isolation",
+        "releaseDate": "",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://m.media-amazon.com/images/I/91VKLxDaitL._SX512_._AGmerlin_._FMwebp_.png",
+        "link": "https://luna.amazon.com/detail/B09HFKWMTQ?ref=pghq&r=web&autoplay=1",
+        "platform": "Prime"
+    },
+    {
+        "id": 42,
+        "title": "Fortnite",
+        "releaseDate": "",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://m.media-amazon.com/images/I/91upEAkiaCL._SX512_._AGmerlin_._FMwebp_.png",
+        "link": "https://luna.amazon.com/detail/B0BTRVRN6M?ref=pghq&r=web",
+        "platform": "Prime"
+    },
+    {
+        "id": 43,
+        "title": "Mortal Shell",
+        "releaseDate": "",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://m.media-amazon.com/images/I/A1CAGk56CSL._SX512_._AGmerlin_._FMwebp_.png",
+        "link": "https://luna.amazon.com/detail/B09M7MSSTY?ref=pghq&r=web&autoplay=1",
+        "platform": "Prime"
+    },
+    {
+        "id": 44,
+        "title": "Fallout 3: Game of the Year Edition",
+        "releaseDate": "",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://m.media-amazon.com/images/I/A1lctZy9QnL._SX512_._AGmerlin_._FMwebp_.png",
+        "link": "https://luna.amazon.com/detail/B0CWDRMZDF?ref=pghq&r=web&autoplay=1",
+        "platform": "Prime"
+    },
+    {
+        "id": 45,
+        "title": "XDefiant",
+        "releaseDate": "",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://m.media-amazon.com/images/I/91hhkTdSiQL._SX512_._AGmerlin_._FMwebp_.png",
+        "link": "https://luna.amazon.com/detail/B0D8CW61KK?ref=pghq&r=web&autoplay=1",
+        "platform": "Prime"
+    },
+    {
+        "id": 46,
+        "title": "DUSK",
+        "releaseDate": "",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://m.media-amazon.com/images/I/91wV60L88tL._SX512_._AGmerlin_._FMwebp_.png",
+        "link": "https://luna.amazon.com/detail/B0B89ZR1FY?ref=pghq&r=web&autoplay=1",
+        "platform": "Prime"
+    },
+    {
+        "id": 47,
+        "title": "LEGO\u00ae Fortnite",
+        "releaseDate": "",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://m.media-amazon.com/images/I/917FIJVhniL._SX512_._AGmerlin_._FMwebp_.png",
+        "link": "https://luna.amazon.com/detail/B0CM951F5D?ref=pghq&r=web",
+        "platform": "Prime"
+    },
+    {
+        "id": 48,
+        "title": "Fallout: New Vegas Ultimate Edition",
+        "releaseDate": "",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://m.media-amazon.com/images/I/91+lscEUFdL._SX512_._AGmerlin_._FMwebp_.png",
+        "link": "https://luna.amazon.com/detail/B0CW16SB1M?ref=pghq&r=web&autoplay=1",
+        "platform": "Prime"
+    },
+    {
+        "id": 49,
+        "title": "PERISH",
+        "releaseDate": "",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://m.media-amazon.com/images/I/81mpH+oEFeL._SX512_._AGmerlin_._FMwebp_.png",
+        "link": "https://luna.amazon.com/detail/B0BWCSPB1V?ref=pghq&r=web&autoplay=1",
+        "platform": "Prime"
+    },
+    {
+        "id": 50,
+        "title": "Tormented Souls",
+        "releaseDate": "",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://m.media-amazon.com/images/I/91nDomhMjPL._SX512_._AGmerlin_._FMwebp_.png",
+        "link": "https://luna.amazon.com/detail/B0C4Z88P7L?ref=pghq&r=web&autoplay=1",
+        "platform": "Prime"
+    },
+    {
+        "id": 51,
+        "title": "Rocket Racing",
+        "releaseDate": "",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://m.media-amazon.com/images/I/91ADuXg3v8L._SX512_._AGmerlin_._FMwebp_.png",
+        "link": "https://luna.amazon.com/detail/B0CM98ZJ3D?ref=pghq&r=web",
+        "platform": "Prime"
+    },
+    {
+        "id": 52,
+        "title": "AMID EVIL",
+        "releaseDate": "",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://m.media-amazon.com/images/I/91zr2NcKAEL._SX512_._AGmerlin_._FMwebp_.png",
+        "link": "https://luna.amazon.com/detail/B0CLDM1P1Z?ref=pghq&r=web&autoplay=1",
+        "platform": "Prime"
+    },
+    {
+        "id": 53,
+        "title": "Valfaris",
+        "releaseDate": "",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://m.media-amazon.com/images/I/91e8mT5o3eL._SX512_._AGmerlin_._FMwebp_.png",
+        "link": "https://luna.amazon.com/detail/B08LX91D95?ref=pghq&r=web&autoplay=1",
+        "platform": "Prime"
+    },
+    {
+        "id": 54,
+        "title": "DOOMBLADE",
+        "releaseDate": "",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://m.media-amazon.com/images/I/91EirdZ6zNL._SX512_._AGmerlin_._FMwebp_.png",
+        "link": "https://luna.amazon.com/detail/B0CTP78JJ8?ref=pghq&r=web&autoplay=1",
+        "platform": "Prime"
+    },
+    {
+        "id": 55,
+        "title": "Monster Harvest",
+        "releaseDate": "",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://m.media-amazon.com/images/I/91cO6aeX+NL._SX512_._AGmerlin_._FMwebp_.png",
+        "link": "https://luna.amazon.com/detail/B09KMBCMJ7?ref=pghq&r=web&autoplay=1",
+        "platform": "Prime"
+    },
+    {
+        "id": 56,
+        "title": "Starlight Grimalkin",
+        "releaseDate": "",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://m.media-amazon.com/images/I/61NpRrMtAaL._FMwebp_.jpg",
+        "link": "https://gaming.amazon.com/starlight-grimalkin/dp/amzn1.pg.item.def04e8e-b03f-4d29-b87f-ad5116a2508c?ingress=amzn&ref_=SM_NewWorld_S02_D05_CRWN",
+        "platform": "Prime"
+    },
+    {
+        "id": 57,
+        "title": "Behemoth Cache",
+        "releaseDate": "",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://m.media-amazon.com/images/I/612JM4cFVIL._FMwebp_.jpg",
+        "link": "https://gaming.amazon.com/behemoth-cache/dp/amzn1.pg.item.82e2a6f6-d8e1-4330-8787-f7de08dcdf63?ingress=amzn&ref_=SM_LostArk_S03_D02_CRWN",
+        "platform": "Prime"
+    },
+    {
+        "id": 58,
+        "title": "Burger Wars",
+        "releaseDate": "Oct 24, 2024",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3171620/header.jpg?t=1729797913",
+        "link": "https://store.steampowered.com/app/3171620/Burger_Wars/?snr=1_7_7_151_150_1",
+        "platform": "Steam"
+    },
+    {
+        "id": 59,
+        "title": "Valet Simulator: Prologue",
+        "releaseDate": "Oct 24, 2024",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3066490/header.jpg?t=1729785757",
+        "link": "https://store.steampowered.com/app/3066490/Valet_Simulator_Prologue/?snr=1_7_7_151_150_1",
+        "platform": "Steam"
+    },
+    {
+        "id": 60,
+        "title": "MatchOOlu",
+        "releaseDate": "Oct 24, 2024",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3174770/header.jpg?t=1729785715",
+        "link": "https://store.steampowered.com/app/3174770/MatchOOlu/?snr=1_7_7_151_150_1",
+        "platform": "Steam"
+    },
+    {
+        "id": 61,
+        "title": "eWorlds",
+        "releaseDate": "Oct 24, 2024",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2513440/header.jpg?t=1729791160",
+        "link": "https://store.steampowered.com/app/2513440/eWorlds/?snr=1_7_7_151_150_1",
+        "platform": "Steam"
+    },
+    {
+        "id": 62,
+        "title": "Mercapolis",
+        "releaseDate": "Oct 24, 2024",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2930040/header.jpg?t=1729782281",
+        "link": "https://store.steampowered.com/app/2930040/Mercapolis/?snr=1_7_7_151_150_1",
+        "platform": "Steam"
+    },
+    {
+        "id": 63,
+        "title": "iBasket Manager 3 - Online Basketball Manager",
+        "releaseDate": "Oct 24, 2024",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3061170/header.jpg?t=1729780897",
+        "link": "https://store.steampowered.com/app/3061170/iBasket_Manager_3__Online_Basketball_Manager/?snr=1_7_7_151_150_1",
+        "platform": "Steam"
+    },
+    {
+        "id": 64,
+        "title": "UNDERDOGS - Sandboxxer",
+        "releaseDate": "Oct 24, 2024",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3295440/header.jpg?t=1729789214",
+        "link": "https://store.steampowered.com/app/3295440/UNDERDOGS__Sandboxxer/?snr=1_7_7_151_150_1",
+        "platform": "Steam"
+    },
+    {
+        "id": 65,
+        "title": "STRAFTAT",
+        "releaseDate": "Oct 24, 2024",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2386720/header.jpg?t=1729761215",
+        "link": "https://store.steampowered.com/app/2386720/STRAFTAT/?snr=1_7_7_151_150_1",
+        "platform": "Steam"
+    },
+    {
+        "id": 66,
+        "title": "The Doors",
+        "releaseDate": "Oct 24, 2024",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3134730/header.jpg?t=1729756278",
+        "link": "https://store.steampowered.com/app/3134730/The_Doors/?snr=1_7_7_151_150_1",
+        "platform": "Steam"
+    },
+    {
+        "id": 67,
+        "title": "Magibrick:Chapter One",
+        "releaseDate": "Oct 24, 2024",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3243920/header.jpg?t=1729753444",
+        "link": "https://store.steampowered.com/app/3243920/MagibrickChapter_One/?snr=1_7_7_151_150_1",
+        "platform": "Steam"
+    },
+    {
+        "id": 68,
+        "title": "Tarisland",
+        "releaseDate": "Oct 24, 2024",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3126180/header.jpg?t=1729753244",
+        "link": "https://store.steampowered.com/app/3126180/Tarisland/?snr=1_7_7_151_150_1",
+        "platform": "Steam"
+    },
+    {
+        "id": 69,
+        "title": "Dream Rhythm OST",
+        "releaseDate": "Oct 23, 2024",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3296410/header.jpg?t=1729745951",
+        "link": "https://store.steampowered.com/app/3296410/Dream_Rhythm_OST/?snr=1_7_7_151_150_1",
+        "platform": "Steam"
+    },
+    {
+        "id": 70,
+        "title": "VARK SHORTS Premium Demo",
+        "releaseDate": "Oct 23, 2024",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3239010/header.jpg?t=1729733170",
+        "link": "https://store.steampowered.com/app/3239010/VARK_SHORTS_Premium/?snr=1_7_7_151_150_1",
+        "platform": "Steam"
+    },
+    {
+        "id": 71,
+        "title": "ROMANCE OF THE THREE KINGDOMS 8 REMAKE Scenario \"Valor Triumphs\"",
+        "releaseDate": "Oct 23, 2024",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2612440/header.jpg?t=1729733249",
+        "link": "https://store.steampowered.com/app/2612440/ROMANCE_OF_THE_THREE_KINGDOMS_8_REMAKE_Scenario_Valor_Triumphs/?snr=1_7_7_151_150_1",
+        "platform": "Steam"
+    },
+    {
+        "id": 72,
+        "title": "Dark Light",
+        "releaseDate": "Oct 23, 2024",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2756910/header.jpg?t=1729727480",
+        "link": "https://store.steampowered.com/app/2756910/Dark_Light/?snr=1_7_7_151_150_1",
+        "platform": "Steam"
+    },
+    {
+        "id": 73,
+        "title": "Andrew's Nightmare Demo",
+        "releaseDate": "Oct 23, 2024",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3274760/header.jpg?t=1729778170",
+        "link": "https://store.steampowered.com/app/3274760/Andrews_Nightmare_Demo/?snr=1_7_7_151_150_1",
+        "platform": "Steam"
+    },
+    {
+        "id": 74,
+        "title": "Digbeat: Godot Deeper",
+        "releaseDate": "Oct 23, 2024",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2984520/header.jpg?t=1729718733",
+        "link": "https://store.steampowered.com/app/2984520/Digbeat_Godot_Deeper/?snr=1_7_7_151_150_1",
+        "platform": "Steam"
+    },
+    {
+        "id": 75,
+        "title": "Under the blue horizon - Aquarium",
+        "releaseDate": "Oct 23, 2024",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3197730/header.jpg?t=1729706166",
+        "link": "https://store.steampowered.com/app/3197730/Under_the_blue_horizon__Aquarium/?snr=1_7_7_151_150_1",
+        "platform": "Steam"
+    },
+    {
+        "id": 76,
+        "title": "The Bugs Manor Demo",
+        "releaseDate": "Oct 23, 2024",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2078280/header.jpg?t=1729706237",
+        "link": "https://store.steampowered.com/app/2078280/The_Bugs_Manor/?snr=1_7_7_151_150_1",
+        "platform": "Steam"
+    },
+    {
+        "id": 77,
+        "title": "Off Trail",
+        "releaseDate": "Oct 23, 2024",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3218090/header.jpg?t=1729696875",
+        "link": "https://store.steampowered.com/app/3218090/Off_Trail/?snr=1_7_7_151_150_1",
+        "platform": "Steam"
+    },
+    {
+        "id": 78,
+        "title": "1001 Nights Demo",
+        "releaseDate": "Oct 23, 2024",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2782660/header.jpg?t=1729713178",
+        "link": "https://store.steampowered.com/app/2782660/1001_Nights_Demo/?snr=1_7_7_151_150_1",
+        "platform": "Steam"
+    },
+    {
+        "id": 79,
+        "title": "Star Trucker - Hallow's Eve Pack",
+        "releaseDate": "Oct 23, 2024",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3218640/header.jpg?t=1729687746",
+        "link": "https://store.steampowered.com/app/3218640/Star_Trucker__Hallows_Eve_Pack/?snr=1_7_7_151_150_1",
+        "platform": "Steam"
+    },
+    {
+        "id": 80,
+        "title": "Ink Inside - First Page",
+        "releaseDate": "Oct 23, 2024",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3153190/header.jpg?t=1729672090",
+        "link": "https://store.steampowered.com/app/3153190/Ink_Inside__First_Page/?snr=1_7_7_151_150_1",
+        "platform": "Steam"
+    },
+    {
+        "id": 81,
+        "title": "Daemonologie Soundtrack",
+        "releaseDate": "Oct 23, 2024",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3289530/header.jpg?t=1729673607",
+        "link": "https://store.steampowered.com/app/3289530/Daemonologie_Soundtrack/?snr=1_7_7_151_150_1",
+        "platform": "Steam"
+    },
+    {
+        "id": 82,
+        "title": "Soccer Manager 2025",
+        "releaseDate": "Oct 23, 2024",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3217240/header.jpg?t=1729670888",
+        "link": "https://store.steampowered.com/app/3217240/Soccer_Manager_2025/?snr=1_7_7_151_150_1",
+        "platform": "Steam"
+    },
+    {
+        "id": 83,
+        "title": "Project SJHG - Demo",
+        "releaseDate": "Oct 23, 2024",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3249870/header.jpg?t=1729697427",
+        "link": "https://store.steampowered.com/app/3249870/Project_SJHG__Demo/?snr=1_7_7_151_150_1",
+        "platform": "Steam"
+    },
+    {
+        "id": 84,
+        "title": "NOWV",
+        "releaseDate": "Oct 22, 2024",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3175450/header.jpg?t=1729689736",
+        "link": "https://store.steampowered.com/app/3175450/NOWV/?snr=1_7_7_151_150_1",
+        "platform": "Steam"
+    },
+    {
+        "id": 85,
+        "title": "SHI SHI TE NA O-Even in Death- demo",
+        "releaseDate": "Oct 22, 2024",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3268190/header.jpg?t=1729637976",
+        "link": "https://store.steampowered.com/app/3268190/SHI_SHI_TE_NA_OEven_in_Death_demo/?snr=1_7_7_151_150_1",
+        "platform": "Steam"
+    },
+    {
+        "id": 86,
+        "title": "Erotic Rhythm OST",
+        "releaseDate": "Oct 22, 2024",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3296380/header.jpg?t=1729624461",
+        "link": "https://store.steampowered.com/app/3296380/Erotic_Rhythm_OST/?snr=1_7_7_151_150_1",
+        "platform": "Steam"
+    },
+    {
+        "id": 87,
+        "title": "Escape Simulator: The Talos Principle DLC",
+        "releaseDate": "Oct 22, 2024",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3193660/header.jpg?t=1729616286",
+        "link": "https://store.steampowered.com/app/3193660/Escape_Simulator_The_Talos_Principle_DLC/?snr=1_7_7_151_150_1",
+        "platform": "Steam"
+    },
+    {
+        "id": 88,
+        "title": "Hidden Objects",
+        "releaseDate": "Oct 22, 2024",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3172450/header.jpg?t=1729689957",
+        "link": "https://store.steampowered.com/app/3172450/Hidden_Objects/?snr=1_7_7_151_150_1",
+        "platform": "Steam"
+    },
+    {
+        "id": 89,
+        "title": "V-Monsters Digital Farm - Scarecrow",
+        "releaseDate": "Oct 22, 2024",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2992390/header.jpg?t=1729608874",
+        "link": "https://store.steampowered.com/app/2992390/VMonsters_Digital_Farm__Scarecrow/?snr=1_7_7_151_150_1",
+        "platform": "Steam"
+    },
+    {
+        "id": 90,
+        "title": "Demonophobia Company",
+        "releaseDate": "Oct 22, 2024",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3197550/header.jpg?t=1729743437",
+        "link": "https://store.steampowered.com/app/3197550/Demonophobia_Company/?snr=1_7_7_151_150_1",
+        "platform": "Steam"
+    },
+    {
+        "id": 91,
+        "title": "Relics - The Card Game: Demo",
+        "releaseDate": "Oct 22, 2024",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3227150/header.jpg?t=1729525434",
+        "link": "https://store.steampowered.com/app/3227150/Relics__The_Card_Game/?snr=1_7_7_151_150_1",
+        "platform": "Steam"
+    },
+    {
+        "id": 92,
+        "title": "Entwined Time",
+        "releaseDate": "Oct 22, 2024",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3147300/header.jpg?t=1729646389",
+        "link": "https://store.steampowered.com/app/3147300/Entwined_Time/?snr=1_7_7_151_150_1",
+        "platform": "Steam"
+    },
+    {
+        "id": 93,
+        "title": "Panzer Commaner Soundtrack",
+        "releaseDate": "Oct 21, 2024",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3263570/header.jpg?t=1729562333",
+        "link": "https://store.steampowered.com/app/3263570/Panzer_Commaner_Soundtrack/?snr=1_7_7_151_150_1",
+        "platform": "Steam"
+    },
+    {
+        "id": 94,
+        "title": "The Button Game - Button Color Pack 1",
+        "releaseDate": "Oct 21, 2024",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3287430/header.jpg?t=1729539822",
+        "link": "https://store.steampowered.com/app/3287430/The_Button_Game__Button_Color_Pack_1/?snr=1_7_7_151_150_1",
+        "platform": "Steam"
+    },
+    {
+        "id": 95,
+        "title": "Ring of Titans",
+        "releaseDate": "Oct 21, 2024",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1460550/header.jpg?t=1729533555",
+        "link": "https://store.steampowered.com/app/1460550/Ring_of_Titans/?snr=1_7_7_151_150_1",
+        "platform": "Steam"
+    },
+    {
+        "id": 96,
+        "title": "Last Train Outta' Wormtown Full Game DLC",
+        "releaseDate": "Oct 21, 2024",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3224080/header.jpg?t=1729525799",
+        "link": "https://store.steampowered.com/app/3224080/Last_Train_Outta_Wormtown_Full_Game_DLC/?snr=1_7_7_151_150_1",
+        "platform": "Steam"
+    },
+    {
+        "id": 97,
+        "title": "Angel Legion-DLC Summer Love A",
+        "releaseDate": "Oct 21, 2024",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3292360/header.jpg?t=1729497792",
+        "link": "https://store.steampowered.com/app/3292360/Angel_LegionDLC_Summer_Love_A/?snr=1_7_7_151_150_1",
+        "platform": "Steam"
+    },
+    {
+        "id": 98,
+        "title": "Loki's Revenge Demo",
+        "releaseDate": "Oct 20, 2024",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2936750/header.jpg?t=1729469502",
+        "link": "https://store.steampowered.com/app/2936750/Lokis_Revenge/?snr=1_7_7_151_150_1",
+        "platform": "Steam"
+    },
+    {
+        "id": 99,
+        "title": "Retropy VR Demo",
+        "releaseDate": "Oct 20, 2024",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3127780/header.jpg?t=1726733171",
+        "link": "https://store.steampowered.com/app/3127780/Retropy_VR/?snr=1_7_7_151_150_1",
+        "platform": "Steam"
+    },
+    {
+        "id": 100,
+        "title": "Doggy up! Demo",
+        "releaseDate": "Oct 20, 2024",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3132080/header.jpg?t=1729418975",
+        "link": "https://store.steampowered.com/app/3132080/Doggy_up_Demo/?snr=1_7_7_151_150_1",
+        "platform": "Steam"
+    },
+    {
+        "id": 101,
+        "title": "Tiny Shooters",
+        "releaseDate": "Oct 19, 2024",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3267350/header.jpg?t=1729374797",
+        "link": "https://store.steampowered.com/app/3267350/Tiny_Shooters/?snr=1_7_7_151_150_1",
+        "platform": "Steam"
+    },
+    {
+        "id": 102,
+        "title": "Along the River During the Qingming Festival",
+        "releaseDate": "Oct 19, 2024",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2904200/header.jpg?t=1729606509",
+        "link": "https://store.steampowered.com/app/2904200/Along_the_River_During_the_Qingming_Festival/?snr=1_7_7_151_150_1",
+        "platform": "Steam"
+    },
+    {
+        "id": 103,
+        "title": "No Artist Credited",
+        "releaseDate": "Oct 19, 2024",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3250620/header.jpg?t=1729322223",
+        "link": "https://store.steampowered.com/app/3250620/No_Artist_Credited/?snr=1_7_7_151_150_1",
+        "platform": "Steam"
+    },
+    {
+        "id": 104,
+        "title": "Ninja Numpties Demo",
+        "releaseDate": "Oct 18, 2024",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3210840/header.jpg?t=1729284255",
+        "link": "https://store.steampowered.com/app/3210840/Ninja_Numpties/?snr=1_7_7_151_150_1",
+        "platform": "Steam"
+    },
+    {
+        "id": 105,
+        "title": "KeepUp Survival - Mountain Map",
+        "releaseDate": "Oct 18, 2024",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2841550/header.jpg?t=1729283855",
+        "link": "https://store.steampowered.com/app/2841550/KeepUp_Survival__Mountain_Map/?snr=1_7_7_151_150_1",
+        "platform": "Steam"
+    },
+    {
+        "id": 106,
+        "title": "ATOMIC TITANS DEMO",
+        "releaseDate": "Oct 18, 2024",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3296020/header.jpg?t=1729294655",
+        "link": "https://store.steampowered.com/app/3296020/ATOMIC_TITANS_DEMO/?snr=1_7_7_151_150_1",
+        "platform": "Steam"
+    },
+    {
+        "id": 107,
+        "title": "CRUST SHMUP",
+        "releaseDate": "Oct 18, 2024",
+        "availableUntil": "",
+        "price": "Free",
+        "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/3157260/header.jpg?t=1729272823",
+        "link": "https://store.steampowered.com/app/3157260/CRUST_SHMUP/?snr=1_7_7_151_150_1",
+        "platform": "Steam"
+    }
+]
