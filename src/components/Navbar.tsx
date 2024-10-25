@@ -26,7 +26,7 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <AppBar position="static" sx={{ backgroundColor: '#0d0b33' }}>
+    <AppBar position="fixed" sx={{ backgroundColor: '#0d0b33' }}>
       <Toolbar>
         {/* Brand Name */}
         <Typography variant="h6" sx={{ flexGrow: 1 }}>
@@ -35,9 +35,9 @@ const Navbar: React.FC = () => {
 
         {/* Navbar Buttons (Visible on md and up) */}
         <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
-          <Button color="inherit">Epic Games</Button>
-          <Button color="inherit">Prime Games</Button>
-          <Button color="inherit">Steam Games</Button>
+          <Button color="inherit" href='#epic'>Epic Games</Button>
+          <Button color="inherit" href='#prime'>Prime Games</Button>
+          <Button color="inherit" href='#steam'>Steam Games</Button>
         </Box>
 
         {/* Search Field for md and larger */}

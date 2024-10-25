@@ -1,47 +1,44 @@
 import React from 'react';
 import { Card, CardMedia, CardContent, Typography, Button, Box } from '@mui/material';
+import { Game } from '../types/Game'; // Ensure Game type is imported
 
 interface GameCardProps {
-  title: string;
-  image: string;
-  releaseDate: string;
-  availableUntil?: string;
-  price: string;
+  game: Game;
 }
 
-const GameCard: React.FC<GameCardProps> = ({ title, image, releaseDate, availableUntil, price }) => {
+const GameCard: React.FC<GameCardProps> = ({ game }) => {
   return (
-    <Card sx={{ maxWidth: 345, margin: 2 }}>
+    <Card sx={{ maxWidth: 345, margin: 2 }} className='game-card'>
       {/* Game Image */}
       <CardMedia
         component="img"
         height="140"
-        image={image}
-        alt={title}
+        image={game.image}
+        alt={game.title}
       />
 
       {/* Game Details */}
       <CardContent>
         <Typography gutterBottom variant="h6" component="div">
-          {title}
+          {game.title}
         </Typography>
-        {releaseDate && (<Typography variant="body2" color="text.secondary">
-          Release Date: {releaseDate}
+        {game.releaseDate && (<Typography variant="body2" color="text.secondary">
+          Release Date: {game.releaseDate}
         </Typography>
         )}
-        {availableUntil && (
+        {game.availableUntil && (
           <Typography variant="body2" color="error">
-            Available Until: {availableUntil}
+            Available Until: {game.availableUntil}
           </Typography>
         )}
         <Typography variant="body2" color="text.primary" sx={{ mt: 1 }}>
-          Price: {price}
+          Price: {game.price}
         </Typography>
       </CardContent>
 
       {/* Claim Button */}
-      <Box sx={{ display: 'flex', justifyContent: 'center', mb: 2 }}>
-        <Button variant="contained" color="primary">
+      <Box sx={{ display: 'flex', justifyContent: 'center', mb: 2}}>
+        <Button variant="contained" color='primary' href={game.link} target="_blank">
           Claim
         </Button>
       </Box>
