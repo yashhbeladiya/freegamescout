@@ -1,14 +1,21 @@
-import React from 'react';
-import { Pagination as MuiPagination } from '@mui/material';
+import React from "react";
+import { Pagination as MuiPagination } from "@mui/material";
 
 interface PaginationProps {
   gamesPerPage: number;
   totalGames: number;
   paginate: (pageNumber: number) => void;
   currentPage: number;
+  sectionRef: React.RefObject<HTMLDivElement>;
 }
 
-const Pagination: React.FC<PaginationProps> = ({ gamesPerPage, totalGames, paginate, currentPage }) => {
+const Pagination: React.FC<PaginationProps> = ({
+  gamesPerPage,
+  totalGames,
+  paginate,
+  currentPage,
+  sectionRef,
+}) => {
   const pageNumbers = [];
 
   // Calculate the number of pages based on total games and games per page
@@ -16,11 +23,21 @@ const Pagination: React.FC<PaginationProps> = ({ gamesPerPage, totalGames, pagin
     pageNumbers.push(i);
   }
 
+  const handlePageChange = (event: React.ChangeEvent<unknown>, value: number) => {
+    paginate(value);
+    if (sectionRef.current) {
+      window.scrollTo({
+        top: sectionRef.current.offsetTop - 30, // Adjust offset for navbar height
+        behavior: 'smooth',
+      });
+    }
+  };
+
   return (
     <MuiPagination
       count={pageNumbers.length}
       page={currentPage}
-      onChange={(event, value) => paginate(value)}  // Handle page change
+      onChange={handlePageChange}
       color="primary"
       shape="rounded"
     />

@@ -79,3 +79,7 @@ code {
 html {
   scroll-behavior: smooth;
 }
+
+.section {
+  padding-top: 50px; /* Adjust this value based on your navbar height */
+}
