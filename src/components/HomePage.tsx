@@ -1,15 +1,18 @@
 import React, { useEffect, useState, useRef } from "react";
 import GameSection from "./GameSection";
-import gameData from "../data/Gamedata.json";
 import Pagination from "./Pagination"; // Import the pagination component
 import { Game } from "../types/Game";
 import { useSelector } from "react-redux";
 import { Typography } from "@mui/material";
+import * as gameClient from "../components/client";
+import ScoutPicks from "./ScoutPicks";
 
 const HomePage: React.FC = () => {
   const [epicGames, setEpicGames] = useState<Game[]>([]);
   const [primeGames, setPrimeGames] = useState<Game[]>([]);
   const [steamGames, setSteamGames] = useState<Game[]>([]);
+  const [topPicks, setTopPicks] = useState<Game[]>([]);
+  const [loading, setLoading] = useState(false);
 
   const { searchTerm } = useSelector((state: any) => state.navbar);
 
@@ -23,6 +26,8 @@ const HomePage: React.FC = () => {
   const [currentPrimePage, setCurrentPrimePage] = useState(1);
   const [currentSteamPage, setCurrentSteamPage] = useState(1);
 
+  const gameData = epicGames.concat(primeGames, steamGames);
+
   // Filter games based on search term
   const filteredGames = gameData.filter((game) =>
     game.title.toLowerCase().includes(searchTerm.toLowerCase())
@@ -31,15 +36,42 @@ const HomePage: React.FC = () => {
   const gamesPerPage = 15; // You can change this value for more or fewer games per page
 
   // Assuming your JSON data has categories for each platform
-  useEffect(() => {
-    const epicGames = gameData.filter((game) => game.platform === "Epic");
-    const primeGames = gameData.filter((game) => game.platform === "Prime");
-    const steamGames = gameData.filter((game) => game.platform === "Steam");
+  const fetchAllGames = async () => {
+    setLoading(true);
+    try {
+      const [epicResponse, primeResponse, steamResponse] = await Promise.all([
+        gameClient.getEpicGames(),
+        gameClient.getPrimeGames(),
+        gameClient.getSteamGames(),
+      ]);
+      setEpicGames(epicResponse);
+      setPrimeGames(primeResponse);
+      setSteamGames(steamResponse);
+    } catch (error) {
+      console.error("Error fetching games:", error);
+    } finally {
+      setLoading(false);
+    }
+  };
 
-    setEpicGames(epicGames);
-    setPrimeGames(primeGames);
-    setSteamGames(steamGames);
+  const fetchTopGames = async () => {
+    try {
+      const response = await gameClient.getTopPicks();
+      setTopPicks(response);
+      console.log(topPicks);
+    } catch (error) {
+      console.error("Error fetching top picks:", error);
+    }
+  };
+
+  useEffect(() => {
+    fetchAllGames();
+    fetchTopGames();
   }, []);
+
+  console.log(loading);
+
+  console.log(epicGames);
 
   // Calculate current games for each section
   const indexOfLastEpicGame = currentEpicPage * gamesPerPage;
@@ -73,7 +105,7 @@ const HomePage: React.FC = () => {
     if (searchTerm && searchRef.current) {
       window.scrollTo({
         top: searchRef.current.offsetTop - 30, // Adjust offset for navbar height
-        behavior: 'smooth',
+        behavior: "smooth",
       });
     }
   }, [searchTerm]);
@@ -81,6 +113,9 @@ const HomePage: React.FC = () => {
   return (
     <div className="content-wrapper">
       {/* Search Results Section */}
+      <div id="top-picks" className="section mt-3">
+        <ScoutPicks games={topPicks} />
+      </div>
       {searchTerm && (
         <div id="search-results" ref={searchRef} className="section">
           <GameSection

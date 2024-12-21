@@ -7,6 +7,7 @@ import {
   Tooltip,
   Button,
   Box,
+  useTheme,
 } from "@mui/material";
 import { Game } from "../types/Game"; // Ensure Game type is imported
 
@@ -15,9 +16,19 @@ interface GameCardProps {
 }
 
 const GameCard: React.FC<GameCardProps> = ({ game }) => {
+  const theme = useTheme(); // Access theme
+  
   return (
     <Tooltip title={game.title} arrow>
-      <Card sx={{ maxWidth: 345, margin: 2 }} className="game-card">
+      <Card
+        sx={{
+          maxWidth: 345,
+          margin: 2,
+          backgroundColor: theme.palette.background.paper, // Theme-aware background
+          color: theme.palette.text.primary, // Theme-aware text color
+        }}
+        className="game-card"
+      >
         {/* Game Image */}
         <CardMedia
           component="img"
@@ -33,21 +44,21 @@ const GameCard: React.FC<GameCardProps> = ({ game }) => {
             variant="h6"
             component="div"
             sx={{
-              whiteSpace: "nowrap",
-              overflow: "hidden",
-              textOverflow: "ellipsis",
+              whiteSpace: 'nowrap',
+              overflow: 'hidden',
+              textOverflow: 'ellipsis',
             }}
           >
             {game.title}
           </Typography>
-          {game.releaseDate && (
+          {game.release_date && (
             <Typography variant="body2" color="text.secondary">
-              Release Date: {game.releaseDate}
+              Release Date: {game.release_date}
             </Typography>
           )}
-          {game.availableUntil && (
+          {game.available_until && (
             <Typography variant="body2" color="error">
-              Available Until: {game.availableUntil}
+              Available Until: {game.available_until}
             </Typography>
           )}
           <Typography variant="body2" color="text.primary" sx={{ mt: 1 }}>
@@ -56,12 +67,18 @@ const GameCard: React.FC<GameCardProps> = ({ game }) => {
         </CardContent>
 
         {/* Claim Button */}
-        <Box sx={{ display: "flex", justifyContent: "center", mb: 2 }}>
+        <Box sx={{ display: 'flex', justifyContent: 'center', mb: 2 }}>
           <Button
             variant="contained"
-            color="primary"
             href={game.link}
             target="_blank"
+            sx={{
+              backgroundColor: theme.palette.primary.main, // Theme-aware button color
+              color: theme.palette.primary.contrastText, // Theme-aware text color
+              '&:hover': {
+                backgroundColor: theme.palette.primary.dark,
+              },
+            }}
           >
             Claim
           </Button>
