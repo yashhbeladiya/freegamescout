@@ -73,10 +73,11 @@ const ScoutPicks = ({games}: {games: Game[]}) => {
       elevation={0} 
       sx={{ 
         py: 4,
-        background: `
-          linear-gradient(135deg, #f5f7fa 0%, #e4e8eb 100%),
-          repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(66, 133, 244, 0.03) 10px, rgba(66, 133, 244, 0.03) 20px)
-        `,
+        backgroundColor: theme.palette.mode === 'dark' ? '#3a3a3a' : '#f5f7fa', 
+        // background: `
+        //   linear-gradient(135deg, #f5f7fa 0%, #e4e8eb 100%),
+        //   repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(66, 133, 244, 0.03) 10px, rgba(66, 133, 244, 0.03) 20px)
+        // `,
         borderRadius: 4,
         my: 4,
       }}
@@ -84,8 +85,8 @@ const ScoutPicks = ({games}: {games: Game[]}) => {
       <Container maxWidth="lg">
         <Box sx={{ mb: 3, display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
-            <AutoAwesome sx={{ color: theme.palette.primary.main }} />
-            <Typography variant="h5" component="h2" fontWeight="bold">
+            <AutoAwesome sx={{ color: theme.palette.mode === 'dark' ? '#ffffff' : '#0d0b33' }} />
+            <Typography variant="h4" component="h2" fontWeight="bold">
               Scout Picks
             </Typography>
           </Box>
@@ -159,7 +160,7 @@ const ScoutPicks = ({games}: {games: Game[]}) => {
                     <Typography variant="body2" color="error" sx={{ mb: 1 }}>
                       Until: {game.available_until}
                     </Typography>
-                    <Typography variant="h6" color="primary" fontWeight="bold">
+                    <Typography variant="h6" color="text.primary" fontWeight="bold">
                       {game.price}
                     </Typography>
                   </CardContent>

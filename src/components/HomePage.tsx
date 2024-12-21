@@ -26,7 +26,7 @@ const HomePage: React.FC = () => {
   const [currentPrimePage, setCurrentPrimePage] = useState(1);
   const [currentSteamPage, setCurrentSteamPage] = useState(1);
 
-  const gameData = epicGames.concat(primeGames, steamGames);
+  const gameData = epicGames.concat(primeGames, steamGames, epicGames, topPicks); // Add more games to test pagination
 
   // Filter games based on search term
   const filteredGames = gameData.filter((game) =>

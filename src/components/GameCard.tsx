@@ -72,13 +72,13 @@ const GameCard: React.FC<GameCardProps> = ({ game }) => {
             variant="contained"
             href={game.link}
             target="_blank"
-            sx={{
-              backgroundColor: theme.palette.primary.main, // Theme-aware button color
-              color: theme.palette.primary.contrastText, // Theme-aware text color
-              '&:hover': {
-                backgroundColor: theme.palette.primary.dark,
-              },
-            }}
+            // sx={{
+            //   backgroundColor: theme.palette.primary.main, // Theme-aware button color
+            //   color: theme.palette.primary.contrastText, // Theme-aware text color
+            //   '&:hover': {
+            //     backgroundColor: theme.palette.primary.dark,
+            //   },
+            // }}
           >
             Claim
           </Button>

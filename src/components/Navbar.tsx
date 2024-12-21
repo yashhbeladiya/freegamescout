@@ -99,7 +99,7 @@ const Navbar: React.FC = () => {
               placeholder="Search games..."
               value={searchTerm}
               onChange={handleSearchChange}
-              sx={{ backgroundColor: "#fff", borderRadius: 1, ml: 2 }}
+              sx={{ backgroundColor: theme.palette.mode === 'dark' ? "" : '#fff', borderRadius: 1, ml: 2 }}
               InputProps={{
                 startAdornment: (
                   <InputAdornment position="start">
@@ -112,7 +112,7 @@ const Navbar: React.FC = () => {
 
           {/* Search Button for small screens */}
           <Box sx={{ display: { xs: "flex", md: "none" }, ml: 1 }}>
-            <IconButton sx={{ color: "white" }} onClick={toggleSearch}>
+            <IconButton onClick={toggleSearch}>
               {isSearchOpen ? <CloseIcon /> : <SearchIcon />}
             </IconButton>
           </Box>

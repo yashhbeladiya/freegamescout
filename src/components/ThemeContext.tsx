@@ -28,6 +28,19 @@ export const ThemeProviderComponent: React.FC<{ children: React.ReactNode }> = (
             paper: darkMode ? '#1d1d1d' : '#ffffff',
           },
         },
+        components: {
+          MuiButton: {
+            styleOverrides: {
+              root: {
+                backgroundColor: darkMode ? '#333' : '#0d0b33', // Dark button in dark mode, light in light mode
+                color: darkMode ? '#fff' : '#fff', // White text in dark mode, dark text in light mode
+                '&:hover': {
+                  backgroundColor: darkMode ? '#444' : '#2a2873', // Dark button in dark mode, light in light mode
+                },
+              },
+            },
+          },
+        },
       }),
     [darkMode]
   );
