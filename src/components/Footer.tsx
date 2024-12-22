@@ -19,7 +19,7 @@ const Footer: React.FC = () => {
     >
       <Container maxWidth="lg">
         <Typography variant="h6" gutterBottom>
-          About FreeGamesScout
+          About FreeGameScout
         </Typography>
         <Typography variant="body2" gutterBottom>
           FreeGameScout is your go-to source for the latest free games available on various platforms.

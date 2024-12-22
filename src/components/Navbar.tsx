@@ -75,7 +75,7 @@ const Navbar: React.FC = () => {
         <Toolbar>
           {/* Brand Name */}
           <Typography variant="h6" sx={{ flexGrow: 1, color: "white"}}>
-            FreeGamesScout
+            FreeGameScout
           </Typography>
 
           {/* Navbar Buttons (Visible on md and up) */}
