@@ -1,5 +1,6 @@
 import React from 'react';
-import { Box, Typography, Grid } from '@mui/material';
+import { Box, Typography} from '@mui/material';
+import Grid from '@mui/material/Grid2';
 import GameCard from './GameCard';
 import { Game } from '../types/Game'; // Ensure that Game type is imported
 
@@ -19,7 +20,7 @@ const GameSection: React.FC<GameSectionProps> = ({ sectionTitle, games }) => {
       {/* Display Games */}
       <Grid container spacing={2}>
         {games.map((game) => (
-          <Grid item xs={12} sm={6} md={4} lg={3} key={game.id}>
+          <Grid size={{xs:12, sm:6, md:6, lg:3}} key={game.id}>
             <GameCard game={game} /> {/* Pass the entire game object */}
           </Grid>
         ))}

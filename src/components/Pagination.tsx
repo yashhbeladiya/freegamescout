@@ -39,16 +39,17 @@ const Pagination: React.FC<PaginationProps> = ({
 
   const CustomPagination = styled(MuiPagination)(({ theme }) => ({
     "& .MuiPaginationItem-root": {
-      color: "#0d0b33",
+      color: theme.palette.mode === 'dark' ? '#fff' : "#0d0b33",
       "&.Mui-selected": {
-        backgroundColor: "#0d0b33",
+        backgroundColor: theme.palette.mode === 'dark' ? '#333' : "#0d0b33",
         color: "#fff",
         "&:hover": {
-          backgroundColor: "#0a0929",
+          backgroundColor: theme.palette.mode === 'dark' ? '#444' :"#2a2873",
         },
       },
       "&:hover": {
-        backgroundColor: "rgba(13, 11, 51, 0.1)",
+        backgroundColor: theme.palette.mode === 'dark' ? '#555' : "rgba(13, 11, 51, 0.1)",
+
       },
     },
   }));
