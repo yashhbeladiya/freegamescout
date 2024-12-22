@@ -68,16 +68,22 @@ const ScoutPicks = ({games}: {games: Game[]}) => {
   const handleMouseEnter = () => setIsAutoPlaying(false);
   const handleMouseLeave = () => setIsAutoPlaying(true);
 
+  // theme.palette.mode === 'dark' ? '#3a3a3a' : '#f5f7fa',
+
   return (
     <Paper 
       elevation={0} 
-      sx={{ 
+      sx={{
         py: 4,
-        backgroundColor: theme.palette.mode === 'dark' ? '#3a3a3a' : '#f5f7fa', 
-        // background: `
-        //   linear-gradient(135deg, #f5f7fa 0%, #e4e8eb 100%),
-        //   repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(66, 133, 244, 0.03) 10px, rgba(66, 133, 244, 0.03) 20px)
-        // `,
+        background: theme.palette.mode === 'dark'
+          ? `
+            linear-gradient(135deg, #3a3a3a 0%, #2a2a2a 100%),
+            repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(255, 255, 255, 0.03) 10px, rgba(255, 255, 255, 0.03) 20px)
+          `
+          : `
+            linear-gradient(135deg, #f5f7fa 0%, #e4e8eb 100%),
+            repeating-linear-gradient(45deg, transparent, transparent 10px, rgba(66, 133, 244, 0.03) 10px, rgba(66, 133, 244, 0.03) 20px)
+          `,
         borderRadius: 4,
         my: 4,
       }}
@@ -90,7 +96,7 @@ const ScoutPicks = ({games}: {games: Game[]}) => {
               Scout Picks
             </Typography>
           </Box>
-          <Box>
+          <Box sx={{ display: { xs: 'none', sm: 'block' } }}>
             <IconButton onClick={prevSlide} size="large">
               <ChevronLeft />
             </IconButton>

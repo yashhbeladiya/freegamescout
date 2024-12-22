@@ -32,7 +32,10 @@ const GameCard: React.FC<GameCardProps> = ({ game }) => {
         {/* Game Image */}
         <CardMedia
           component="img"
-          height="140"
+          sx={{
+            height: { xs: 200, sm: 140 }, // Responsive height
+            objectFit: 'cover', // Ensure the image covers the area without distortion
+          }}
           image={game.image}
           alt={game.title}
         />
