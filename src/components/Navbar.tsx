@@ -75,7 +75,7 @@ const Navbar: React.FC = () => {
         <Toolbar>
           {/* Brand Name */}
           <Typography variant="h6" sx={{ flexGrow: 1, color: "white"}}>
-            FreeGameScout
+            Free Game Scout
           </Typography>
 
           {/* Navbar Buttons (Visible on md and up) */}
@@ -84,10 +84,10 @@ const Navbar: React.FC = () => {
               Epic Games
             </Button>
             <Button sx={{ color: "white" }} href="#prime">
-              Prime Games
+              Prime Gaming
             </Button>
             <Button sx={{ color: "white" }} href="#steam">
-              Steam Games
+              Steam
             </Button>
           </Box>
 

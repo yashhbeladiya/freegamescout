@@ -83,7 +83,7 @@ const GameCard: React.FC<GameCardProps> = ({ game }) => {
             //   },
             // }}
           >
-            Claim
+            Play
           </Button>
         </Box>
       </Card>
