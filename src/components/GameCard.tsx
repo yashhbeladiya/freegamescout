@@ -9,7 +9,7 @@ import {
   Box,
   useTheme,
 } from "@mui/material";
-import { Game } from "../types/Game"; // Ensure Game type is imported
+import { Game } from "../types/Game"; 
 
 interface GameCardProps {
   game: Game;
@@ -22,10 +22,12 @@ const GameCard: React.FC<GameCardProps> = ({ game }) => {
     <Tooltip title={game.title} arrow>
       <Card
         sx={{
-          maxWidth: 345,
-          margin: 2,
+          width: '100%', // Full width of the parent container
           backgroundColor: theme.palette.background.paper, // Theme-aware background
           color: theme.palette.text.primary, // Theme-aware text color
+          display: 'flex',
+          flexDirection: 'column', // Stack content vertically
+          height: '100%', // Ensure cards are equal height
         }}
         className="game-card"
       >
@@ -33,15 +35,16 @@ const GameCard: React.FC<GameCardProps> = ({ game }) => {
         <CardMedia
           component="img"
           sx={{
-            height: { xs: 200, sm: 140 }, // Responsive height
+            aspectRatio: '16/9', // Maintain a consistent aspect ratio
             objectFit: 'cover', // Ensure the image covers the area without distortion
+            flexGrow: 1, // Allow the image to grow to take available space
           }}
           image={game.image}
           alt={game.title}
         />
 
         {/* Game Details */}
-        <CardContent>
+        <CardContent sx={{ flexGrow: 0 }}>
           <Typography
             gutterBottom
             variant="h6"
@@ -50,6 +53,7 @@ const GameCard: React.FC<GameCardProps> = ({ game }) => {
               whiteSpace: 'nowrap',
               overflow: 'hidden',
               textOverflow: 'ellipsis',
+              fontSize: { xs: '1rem', sm: '1.2rem' }, // Adjust font size
             }}
           >
             {game.title}
@@ -70,11 +74,14 @@ const GameCard: React.FC<GameCardProps> = ({ game }) => {
         </CardContent>
 
         {/* Claim Button */}
-        <Box sx={{ display: 'flex', justifyContent: 'center', mb: 2 }}>
+        <Box sx={{ display: 'flex', justifyContent: 'center', mb: 2, mt: 'auto' }}>
           <Button
             variant="contained"
             href={game.link}
             target="_blank"
+            sx={{
+              fontSize: { xs: '0.8rem', sm: '1rem' }, // Responsive button font size
+            }}
             // sx={{
             //   backgroundColor: theme.palette.primary.main, // Theme-aware button color
             //   color: theme.palette.primary.contrastText, // Theme-aware text color

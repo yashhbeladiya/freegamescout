@@ -1,9 +1,8 @@
 import React from 'react';
 import { Box, Container, Typography, Link, IconButton, useTheme } from '@mui/material';
 import FacebookIcon from '@mui/icons-material/Facebook';
-import TwitterIcon from '@mui/icons-material/Twitter';
+import XIcon from '@mui/icons-material/X';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import EmailIcon from '@mui/icons-material/Email';
 
 const Footer: React.FC = () => {
   const theme = useTheme(); // Access theme
@@ -47,15 +46,15 @@ const Footer: React.FC = () => {
             <FacebookIcon />
           </IconButton>
           <IconButton
-            href="https://www.twitter.com"
+            href="https://x.com/freegamescoutHQ"
             color="inherit"
             target="_blank"
             sx={{ '&:hover': { color: '#1DA1F2' } }}
           >
-            <TwitterIcon />
+            <XIcon />
           </IconButton>
           <IconButton
-            href="https://www.instagram.com"
+            href="https://www.instagram.com/freegamescout"
             color="inherit"
             target="_blank"
             sx={{ '&:hover': { color: '#E1306C' } }}

@@ -3,9 +3,24 @@ import GameSection from "./GameSection";
 import Pagination from "./Pagination"; // Import the pagination component
 import { Game } from "../types/Game";
 import { useSelector } from "react-redux";
-import { Typography } from "@mui/material";
+import { Container, Typography } from "@mui/material";
 import * as gameClient from "../components/client";
 import ScoutPicks from "./ScoutPicks";
+
+const styles = {
+  contentWrapper: {
+    padding: "20px",
+    margin: "0 auto",
+    maxWidth: "1200px",
+    boxSizing: "border-box",
+  },
+  section: {
+    marginBottom: "40px",
+  },
+  noResultsText: {
+    color: "gray",
+  },
+};
 
 const HomePage: React.FC = () => {
   const [epicGames, setEpicGames] = useState<Game[]>([]);
@@ -26,7 +41,7 @@ const HomePage: React.FC = () => {
   const [currentPrimePage, setCurrentPrimePage] = useState(1);
   const [currentSteamPage, setCurrentSteamPage] = useState(1);
 
-  const gameData = epicGames.concat(primeGames, steamGames, epicGames, topPicks); // Add more games to test pagination
+  const gameData = epicGames.concat(primeGames, steamGames, topPicks); // Add more games to test pagination
 
   // Filter games based on search term
   const filteredGames = gameData.filter((game) =>
@@ -111,7 +126,7 @@ const HomePage: React.FC = () => {
   }, [searchTerm]);
 
   return (
-    <div className="content-wrapper">
+    <Container className="content-wrapper" sx={styles.contentWrapper}>
       {/* Search Results Section */}
       <div id="top-picks" className="section mt-3">
         <ScoutPicks games={topPicks} />
@@ -143,7 +158,7 @@ const HomePage: React.FC = () => {
       </div>
 
       <div id="prime" ref={primeRef} className="section">
-        <GameSection sectionTitle="Prime Games" games={currentPrimeGames} />
+        <GameSection sectionTitle="Prime Gaming" games={currentPrimeGames} />
         <Pagination
           gamesPerPage={gamesPerPage}
           totalGames={primeGames.length}
@@ -154,7 +169,7 @@ const HomePage: React.FC = () => {
       </div>
 
       <div id="steam" ref={steamRef} className="section">
-        <GameSection sectionTitle="Steam Games" games={currentSteamGames} />
+        <GameSection sectionTitle="Steam" games={currentSteamGames} />
         <Pagination
           gamesPerPage={gamesPerPage}
           totalGames={steamGames.length}
@@ -163,7 +178,7 @@ const HomePage: React.FC = () => {
           sectionRef={steamRef}
         />
       </div>
-    </div>
+    </Container>
   );
 };
 

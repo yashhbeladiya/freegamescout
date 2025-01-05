@@ -20,7 +20,7 @@ const GameSection: React.FC<GameSectionProps> = ({ sectionTitle, games }) => {
       {/* Display Games */}
       <Grid container spacing={2}>
         {games.map((game) => (
-          <Grid size={{xs:12, sm:6, md:6, lg:3}} key={game.id}>
+          <Grid size={{xs:6, sm:6, md:4, lg:3}} key={game.id}>
             <GameCard game={game} /> {/* Pass the entire game object */}
           </Grid>
         ))}

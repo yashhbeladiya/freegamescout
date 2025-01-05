@@ -159,10 +159,10 @@ const Navbar: React.FC = () => {
               Epic Games
             </MenuItem>
             <MenuItem onClick={() => scrollToSection("prime")} href="#prime">
-              Prime Games
+              Prime Gaming
             </MenuItem>
             <MenuItem onClick={() => scrollToSection("steam")} href="#steam">
-              Steam Games
+              Steam
             </MenuItem>
           </Menu>
           <IconButton onClick={toggleTheme} sx={{ color: "white" }}>

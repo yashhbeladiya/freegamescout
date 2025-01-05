@@ -36,3 +36,21 @@
     transform: rotate(360deg);
   }
 }
+
+.content-wrapper {
+  padding: 20px;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px; /* Content will never exceed this width */
+  box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .content-wrapper {
+    padding: 10px; /* Reduce padding on smaller screens */
+  }
+}
+
+.section {
+  margin-bottom: 40px;
+}

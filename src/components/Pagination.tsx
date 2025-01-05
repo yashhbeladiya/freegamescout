@@ -38,6 +38,11 @@ const Pagination: React.FC<PaginationProps> = ({
   };
 
   const CustomPagination = styled(MuiPagination)(({ theme }) => ({
+    "&.MuiPagination-root": {
+      display: "flex",
+      justifyContent: "center", // Center the pagination
+      marginTop: "25px", // Add space between game cards and pagination
+    },
     "& .MuiPaginationItem-root": {
       color: theme.palette.mode === 'dark' ? '#fff' : "#0d0b33",
       "&.Mui-selected": {
