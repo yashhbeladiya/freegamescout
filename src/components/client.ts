@@ -38,6 +38,15 @@ export const getSteamGames = async () => {
   }
 };
 
+export const getGOGGames = async () => {
+  try {
+    const response = await axios.get(`${GAME_API}/gog`);
+    return response.data;
+  } catch (error) {
+    console.error("Error fetching GOG games:", error);
+  }
+}
+
 export const getTopPicks = async () => {
   try {
     const response = await axios.get(`${GAME_API}/top-picks`);

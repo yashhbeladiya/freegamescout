@@ -63,6 +63,16 @@ const Navbar: React.FC = () => {
     handleMenuClose();
   };
 
+  const handleLogoClick = () => {
+    // Reset search term
+    dispatch(setSearchTerm(""));
+    // Scroll to the top
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <>
       <AppBar
@@ -74,9 +84,30 @@ const Navbar: React.FC = () => {
       >
         <Toolbar>
           {/* Brand Name */}
-          <Typography variant="h6" sx={{ flexGrow: 1, color: "white"}}>
-            Free Game Scout
-          </Typography>
+          <Box
+            sx={{
+              display: "flex",
+              alignItems: "center",
+              cursor: "pointer",
+              flexGrow: 1,
+            }}
+            onClick={handleLogoClick}
+          >
+            <img
+              src="./fgslogo.png"
+              alt="Free Game Scout Logo"
+              style={{ height: 40, marginRight: 10 }}
+            />
+            <Typography
+              variant="h6"
+              sx={{
+                color: "white",
+                display: { xs: "none", md: "block" },
+              }}
+            >
+              Free Game Scout
+            </Typography>
+          </Box>
 
           {/* Navbar Buttons (Visible on md and up) */}
           <Box sx={{ display: { xs: "none", md: "flex" } }}>
@@ -88,6 +119,9 @@ const Navbar: React.FC = () => {
             </Button>
             <Button sx={{ color: "white" }} href="#steam">
               Steam
+            </Button>
+            <Button sx={{ color: "white" }} href="#GOG">
+              GOG
             </Button>
           </Box>
 
@@ -163,6 +197,9 @@ const Navbar: React.FC = () => {
             </MenuItem>
             <MenuItem onClick={() => scrollToSection("steam")} href="#steam">
               Steam
+            </MenuItem>
+            <MenuItem onClick={() => scrollToSection("GOG")} href="#GOG">
+              GOG
             </MenuItem>
           </Menu>
           <IconButton onClick={toggleTheme} sx={{ color: "white" }}>

@@ -26,6 +26,7 @@ const HomePage: React.FC = () => {
   const [epicGames, setEpicGames] = useState<Game[]>([]);
   const [primeGames, setPrimeGames] = useState<Game[]>([]);
   const [steamGames, setSteamGames] = useState<Game[]>([]);
+  const [gogGames, setGOGGames] = useState<Game[]>([]);
   const [topPicks, setTopPicks] = useState<Game[]>([]);
   const [loading, setLoading] = useState(false);
 
@@ -34,14 +35,16 @@ const HomePage: React.FC = () => {
   const epicRef = useRef<HTMLDivElement>(null);
   const primeRef = useRef<HTMLDivElement>(null);
   const steamRef = useRef<HTMLDivElement>(null);
+  const gogRef = useRef<HTMLDivElement>(null);
   const searchRef = useRef<HTMLDivElement>(null);
 
   // Pagination states
   const [currentEpicPage, setCurrentEpicPage] = useState(1);
   const [currentPrimePage, setCurrentPrimePage] = useState(1);
   const [currentSteamPage, setCurrentSteamPage] = useState(1);
+  const [currentGOGPage, setCurrentGOGPage] = useState(1);
 
-  const gameData = epicGames.concat(primeGames, steamGames, topPicks); // Add more games to test pagination
+  const gameData = epicGames.concat(primeGames, steamGames, topPicks, gogGames); // Add more games to test pagination
 
   // Filter games based on search term
   const filteredGames = gameData.filter((game) =>
@@ -54,14 +57,16 @@ const HomePage: React.FC = () => {
   const fetchAllGames = async () => {
     setLoading(true);
     try {
-      const [epicResponse, primeResponse, steamResponse] = await Promise.all([
+      const [epicResponse, primeResponse, steamResponse, gogResponse] = await Promise.all([
         gameClient.getEpicGames(),
         gameClient.getPrimeGames(),
         gameClient.getSteamGames(),
+        gameClient.getGOGGames(),
       ]);
       setEpicGames(epicResponse);
       setPrimeGames(primeResponse);
       setSteamGames(steamResponse);
+      setGOGGames(gogResponse);
     } catch (error) {
       console.error("Error fetching games:", error);
     } finally {
@@ -86,8 +91,6 @@ const HomePage: React.FC = () => {
 
   console.log(loading);
 
-  console.log(epicGames);
-
   // Calculate current games for each section
   const indexOfLastEpicGame = currentEpicPage * gamesPerPage;
   const indexOfFirstEpicGame = indexOfLastEpicGame - gamesPerPage;
@@ -110,10 +113,18 @@ const HomePage: React.FC = () => {
     indexOfLastSteamGame
   );
 
+  const indexOfLastGOGGame = currentGOGPage * gamesPerPage;
+  const indexOfFirstGOGGame = indexOfLastGOGGame - gamesPerPage;
+  const currentGOGGames = gogGames.slice(
+    indexOfFirstGOGGame,
+    indexOfLastGOGGame
+  );
+
   // Pagination functions
   const paginateEpic = (pageNumber: number) => setCurrentEpicPage(pageNumber);
   const paginatePrime = (pageNumber: number) => setCurrentPrimePage(pageNumber);
   const paginateSteam = (pageNumber: number) => setCurrentSteamPage(pageNumber);
+  const paginateGOG = (pageNumber: number) => setCurrentGOGPage(pageNumber);
 
   // Scroll to search results section when search term changes
   useEffect(() => {
@@ -176,6 +187,17 @@ const HomePage: React.FC = () => {
           paginate={paginateSteam}
           currentPage={currentSteamPage}
           sectionRef={steamRef}
+        />
+      </div>
+
+      <div id="GOG" ref={gogRef} className="section">
+        <GameSection sectionTitle="GOG" games={currentGOGGames} />
+        <Pagination
+          gamesPerPage={gamesPerPage}
+          totalGames={gogGames.length}
+          paginate={paginateGOG}
+          currentPage={currentGOGPage}
+          sectionRef={gogRef}
         />
       </div>
     </Container>
