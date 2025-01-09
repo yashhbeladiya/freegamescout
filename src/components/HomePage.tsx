@@ -78,7 +78,6 @@ const HomePage: React.FC = () => {
     try {
       const response = await gameClient.getTopPicks();
       setTopPicks(response);
-      console.log(topPicks);
     } catch (error) {
       console.error("Error fetching top picks:", error);
     }
@@ -88,8 +87,6 @@ const HomePage: React.FC = () => {
     fetchAllGames();
     fetchTopGames();
   }, []);
-
-  console.log(loading);
 
   // Calculate current games for each section
   const indexOfLastEpicGame = currentEpicPage * gamesPerPage;
@@ -138,10 +135,12 @@ const HomePage: React.FC = () => {
 
   return (
     <Container className="content-wrapper" sx={styles.contentWrapper}>
-      {/* Search Results Section */}
-      <div id="top-picks" className="section mt-3">
+      
+      {topPicks.length > 0 && (<div id="top-picks" className="section mt-3">
         <ScoutPicks games={topPicks} />
-      </div>
+      </div>)}
+
+      {/* Search Results Section */}
       {searchTerm && (
         <div id="search-results" ref={searchRef} className="section">
           <GameSection
