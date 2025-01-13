@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import {
   AppBar,
   Toolbar,
@@ -73,6 +73,15 @@ const Navbar: React.FC = () => {
     });
   };
 
+  useEffect(() => {
+    // Close the menu when the user scrolls
+    window.addEventListener("scroll", handleMenuClose);
+    return () => {
+      window.removeEventListener("scroll", handleMenuClose);
+    };
+  }
+  , []);
+
   return (
     <>
       <AppBar
@@ -146,7 +155,7 @@ const Navbar: React.FC = () => {
 
           {/* Search Button for small screens */}
           <Box sx={{ display: { xs: "flex", md: "none" }, ml: 1 }}>
-            <IconButton onClick={toggleSearch}>
+            <IconButton onClick={toggleSearch} sx={{ color: "white" }}>
               {isSearchOpen ? <CloseIcon /> : <SearchIcon />}
             </IconButton>
           </Box>
@@ -216,7 +225,7 @@ const Navbar: React.FC = () => {
             left: 10,
             right: 10,
             zIndex: 1300,
-            backgroundColor: "rgba(255, 255, 255, 0.9)",
+            backgroundColor: darkMode ? "#1a1a1a" : "#fff",
             padding: 1,
             borderRadius: 2,
           }}
