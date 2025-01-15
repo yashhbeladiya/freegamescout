@@ -51,7 +51,7 @@ const HomePage: React.FC = () => {
     game.title.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
-  const gamesPerPage = 15; // You can change this value for more or fewer games per page
+  const gamesPerPage = 16; // You can change this value for more or fewer games per page
 
   // Assuming your JSON data has categories for each platform
   const fetchAllGames = async () => {
