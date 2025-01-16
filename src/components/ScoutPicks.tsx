@@ -183,7 +183,7 @@ const ScoutPicks = ({games}: {games: Game[]}) => {
                         fontWeight: 'bold'
                       }}
                     >
-                      Claim Now
+                       {game.release_date === 'Now' ? 'Claim Now' : 'View Details'}
                     </Button>
                   </CardActions>
                 </Card>
