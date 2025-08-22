@@ -16,62 +16,102 @@ const api = axios.create({
   },
   // keep credentials disabled by default; enable if your API needs cookies
 });
+// In-memory cache to reduce HTTP requests to the free backend
+let gamesCache: { ts: number; data: any[] | null } = { ts: 0, data: null };
+const CACHE_TTL = 2 * 60 * 1000; // 2 minutes
+let inflightFetch: Promise<any[]> | null = null;
 
-export const getGames = async () => {
-  try {
-    const response = await api.get("/");
-    return response.data;
-  } catch (error) {
-    console.error("Error fetching games:", error);
+const fetchAllGames = async (): Promise<any[]> => {
+  const now = Date.now();
+  if (gamesCache.data && now - gamesCache.ts < CACHE_TTL) {
+    return gamesCache.data as any[];
   }
+
+  // If there's already a fetch in progress, return the same promise so concurrent callers
+  // don't trigger multiple HTTP requests.
+  if (inflightFetch) return await inflightFetch;
+
+  inflightFetch = (async () => {
+    try {
+      const response = await api.get("/");
+      const data = response.data;
+      gamesCache = { ts: Date.now(), data };
+      return data;
+    } catch (error) {
+      console.error("Error fetching all games:", error);
+      // return empty array on error so callers always get an array
+      return [];
+    } finally {
+      // clear inflight regardless so future calls can retry
+      inflightFetch = null;
+    }
+  })();
+
+  return await inflightFetch;
 };
 
+export const invalidateGamesCache = () => {
+  gamesCache = { ts: 0, data: null };
+};
+
+export const getGames = async () => {
+  return await fetchAllGames();
+};
+
+// Platform-specific helpers now filter the cached/full dataset client-side
 export const getEpicGames = async () => {
   try {
-    const response = await api.get("/epic");
-    console.log("Epic games fetched successfully:", response.data);
-    return response.data;
+    const all = await fetchAllGames();
+    const filtered = (all || []).filter((g: any) => g.platform?.toLowerCase() === "epic");
+    console.log("Epic games fetched successfully:", filtered);
+    return filtered;
   } catch (error) {
-    console.error("Error fetching Epic games:", error);
+  console.error("Error fetching Epic games:", error);
+  return [];
   }
 };
 
 export const getPrimeGames = async () => {
   try {
-    const response = await api.get("/prime");
-    return response.data;
+    const all = await fetchAllGames();
+    return (all || []).filter((g: any) => g.platform?.toLowerCase() === "prime");
   } catch (error) {
-    console.error("Error fetching Prime games:", error);
+  console.error("Error fetching Prime games:", error);
+  return [];
   }
 };
 
 export const getSteamGames = async () => {
   try {
-    const response = await api.get("/steam");
-    return response.data;
+    const all = await fetchAllGames();
+    return (all || []).filter((g: any) => g.platform?.toLowerCase() === "steam");
   } catch (error) {
-    console.error("Error fetching Steam games:", error);
+  console.error("Error fetching Steam games:", error);
+  return [];
   }
 };
 
 export const getGOGGames = async () => {
   try {
-    const response = await api.get("/gog");
-    return response.data;
+    const all = await fetchAllGames();
+    return (all || []).filter((g: any) => g.platform?.toLowerCase() === "gog" || g.platform?.toLowerCase() === "gog.com");
   } catch (error) {
-    console.error("Error fetching GOG games:", error);
+  console.error("Error fetching GOG games:", error);
+  return [];
   }
 }
 
 export const getTopPicks = async () => {
   try {
-    const response = await api.get("/top-picks");
-    return response.data;
+    const all = await fetchAllGames();
+    return (all || []).filter((g: any) => Array.isArray(g.tags) && g.tags.includes("top-pick"));
   } catch (error) {
-    console.error("Error fetching top picks:", error);
+  console.error("Error fetching top picks:", error);
+  return [];
   }
 }
 
+// Search remains a server-side endpoint to reduce client CPU and to allow full-text search
 export const getSeachedGames = async (searchTerm: any) => {
   try {
     const response = await api.get("/search", {
@@ -79,6 +119,7 @@ export const getSeachedGames = async (searchTerm: any) => {
     });
     return response.data;
   } catch (error) {
-    console.error("Error fetching games:", error);
+  console.error("Error fetching games:", error);
+  return [];
   }
 };
