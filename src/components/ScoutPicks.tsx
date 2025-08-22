@@ -21,7 +21,8 @@ import {
   AutoAwesome
 } from '@mui/icons-material';
 
-const ScoutPicks = ({games}: {games: Game[]}) => {
+const ScoutPicks = ({games}: {games?: Game[]}) => {
+  const safeGames = Array.isArray(games) ? games : [];
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
   const theme = useTheme();
@@ -36,7 +37,7 @@ const ScoutPicks = ({games}: {games: Game[]}) => {
   };
 
   const cardsToShow = getCardsToShow();
-  const maxIndex = games.length - cardsToShow;
+  const maxIndex = Math.max(0, safeGames.length - cardsToShow);
 
   const nextSlide = () => {
     setCurrentIndex((prevIndex) => 
@@ -118,7 +119,7 @@ const ScoutPicks = ({games}: {games: Game[]}) => {
               transform: `translateX(-${currentIndex * (100 / cardsToShow)}%)`,
             }}
           >
-            {games.map((game) => (
+            {safeGames.map((game) => (
               <Box
                 key={game.id}
                 sx={{

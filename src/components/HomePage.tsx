@@ -44,12 +44,23 @@ const HomePage: React.FC = () => {
   const [currentSteamPage, setCurrentSteamPage] = useState(1);
   const [currentGOGPage, setCurrentGOGPage] = useState(1);
 
-  const gameData = epicGames.concat(primeGames, steamGames, topPicks, gogGames); // Add more games to test pagination
+  // Ensure each source is an array before merging. Some API endpoints might return
+  // an object (e.g. { games: [...] }) or undefined on error — guard against that
+  // so calling `.filter` won't throw.
+  const toArray = (v: any) => (Array.isArray(v) ? v : []);
+  const gameData = [
+    ...toArray(epicGames),
+    ...toArray(primeGames),
+    ...toArray(steamGames),
+    ...toArray(topPicks),
+    ...toArray(gogGames),
+  ]; // Add more games to test pagination
 
-  // Filter games based on search term
-  const filteredGames = gameData.filter((game) =>
-    game.title.toLowerCase().includes(searchTerm.toLowerCase())
-  );
+  // Filter games based on search term (defensive: normalize searchTerm)
+  const normalizedSearchTerm = (searchTerm || "").toLowerCase();
+  const filteredGames = Array.isArray(gameData)
+    ? gameData.filter((game) => (game?.title || "").toLowerCase().includes(normalizedSearchTerm))
+    : [];
 
   const gamesPerPage = 16; // You can change this value for more or fewer games per page
 
