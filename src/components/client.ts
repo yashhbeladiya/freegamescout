@@ -74,7 +74,7 @@ export const getEpicGames = async () => {
 export const getPrimeGames = async () => {
   try {
     const all = await fetchAllGames();
-    return (all || []).filter((g: any) => g.platform?.toLowerCase() === "prime");
+    return (all || []).filter((g: any) => g.platform?.toLowerCase() === "prime gaming");
   } catch (error) {
   console.error("Error fetching Prime games:", error);
   return [];
