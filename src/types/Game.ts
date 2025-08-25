@@ -1,12 +1,14 @@
 export interface Game {
     id: number;
     title: string;
-    release_date: string;
-    available_until: string;
+    release_date?: string;
+    available_until?: string;
     price: string;
-    image: string;
+    image?: string;
     link: string;
     platform: string;
     tags: string[];
+    categories: string[];
+    features: string[];
   }
   
